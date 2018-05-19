@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'GoogleAutocomplete' do
+ pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'
+  pod 'ObjectMapper'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'SwiftyJSON'
+end
